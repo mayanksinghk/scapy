@@ -465,3 +465,17 @@ IEs = {
     282: "id-MicoAllPLMN",
     283: "id-QosFlowFailedToSetupList"
 }
+
+# Criticality
+Criticality = {
+    0 : "reject",
+    1 : "ignore",
+    2 : "notify"
+}
+
+
+TriggeringMessage = {
+    0 : "initiating-message",
+    1 : "successful-outcome",
+    2 : "unsuccessful-outcome"
+}

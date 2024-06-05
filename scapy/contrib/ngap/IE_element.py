@@ -9,7 +9,7 @@ class IEBase(Packet):
 # 9.3.1.1 Message Type
 class IEMessageType(IEBase):
     name="Message Type"
-    fields_desc = []
+    fields_desc = [ByteField("Procedure Code")]
     pass
 
 # 9.3.1.2 Cause
